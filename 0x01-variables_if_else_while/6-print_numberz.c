@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
-* main - Prints numbers from 0 to 9.
+* main - Prints numbers from 0 to 9, followed by a new line.
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-	int i;
+	int j;
 
-	for (i = 48; i < 58; i++)
+	for (j = 52; j < 62; j++)
 	{
-	putchar(i);
+	putchar(j);
 	}
 	putchar('\n');
 	return (0);
