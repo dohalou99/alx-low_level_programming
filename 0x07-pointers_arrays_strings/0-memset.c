@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * _memset - fills memory with the constante bytes
+ * _memset - _memset - fills memory with the constante bytes
  * @s: the pointer of the constante bytes
  * @b: constante bytes
  * @n: numbers of bytes
@@ -19,3 +18,4 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
+
