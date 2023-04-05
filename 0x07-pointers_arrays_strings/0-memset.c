@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- *_memset - fills memory with the constante bytes
- *@b : input constante bytes
- *@n : input numbers of bytes
- *@s : input the pointer of the constante bytes
- *return : Return a pointer to the memory area s
+ * _memset - fills memory with the constante bytes
+ * @s: the pointer of the constante bytes
+ * @b: constante bytes
+ * @n: numbers of bytes
+ *
+ * Return: changed array with new value for n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -13,8 +14,8 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (j = 0; n > 0; j++)
 	{
-	s[j] = b;
-	n--;
+		s[j] = b;
+		n--;
 	}
 	return (s);
 }
