@@ -1,15 +1,17 @@
 #include "main.h"
+
 /**
- * _memset - _memset - fills memory with the constante bytes
- * @s: the pointer of the constante bytes
- * @b: constante bytes
- * @n: numbers of bytes
+ * _memset - Write a function that fills memory with a constant byte
+ * @s: the pointed memory area
+ * @b: the constant byte
+ * @n: the number of bytes to be changed
  *
  * Return: changed array with new value for n bytes
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int j;
+	int j = 0;
 
 	for (j = 0; n > 0; j++)
 	{
@@ -18,4 +20,3 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
-
