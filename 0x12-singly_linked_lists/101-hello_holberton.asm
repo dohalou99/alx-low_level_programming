@@ -1,4 +1,3 @@
-SECTION .data
 global main
 extern printf
 main:
